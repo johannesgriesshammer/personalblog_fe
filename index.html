@@ -8,137 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello, Web!</title>
 
-  <style>
-    * {
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-    html {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      line-height: 1.4;
-      font-size: 15px;
-    }
-    @media screen and (min-width: 320px) {
-      html {
-          font-size: calc(15px + 5 * ((100vw - 320px) / 680));
-      }
-    }
-    @media screen and (min-width: 1000px) {
-      html {
-          font-size: 20px;
-      }
-    }
-    body {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0.75rem;
-      padding-bottom: 10rem;
-      display: flex;
-    }
-    body>section {
-      padding: 3rem 1rem;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .about {
-      width: 43%;
-    }
-
-    .projects {
-      width: 57%;
-    }
-
-    footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      color: #eee;
-      text-align: center;
-      background: #222;
-      padding: 1rem;
-      line-height: 1.75;
-      font-size: 0.8rem;
-    }
-    nav a {
-      color: #34b791;
-      white-space: nowrap;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    header h1 {
-      color: red;
-    }
-
-    h1,
-    .h1 {
-      font-size: 2.5rem;
-      font-weight: 900;
-      margin: 0 0 1rem 0;
-    }
-
-    h2, .h2 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin: 0 0 1rem 0;
-    }
-
-    h3 {
-      margin: 0 0 0.5rem 0;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      line-height: 1;
-    }
-
-    .photo-area {
-      position: relative;
-      margin: 0 0 1rem 0;
-    }
-
-    .photo-area>a {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      padding: 1rem;
-      background: rgba(255,255,255,0.8);
-      opacity: 0;
-      -webkit-transition: 0.2s;
-      transition: 0.2s;
-    }
-    .photo-area:hover>a {
-      opacity: 1;
-    }
-
-    .text a {
-      border-bottom: 2px solid rgba(0,0,0,0.5);
-    }
-
-    .text a:hover, .text a:focus {
-      border-bottom-color: black;
-      color: red;
-    }
-    .thing {
-      border: 1px solid #222;
-      padding: 2rem;
-      font-size: 1.2rem;
-      margin: 0 0 1rem 0;
-    }
-
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -187,11 +57,15 @@
   </section>
   <footer>
     <nav>
-      <a href="#b">Link1</a>
-      <a href="#b">Link2</a>
-      <a href="#b">Link3</a>
-      <a href="#b">Link4</a>
-      <a href="#b">Link5</a>
+      <a href="#b">Blog</a>
+      <a href="#b">Projects</a>
+      <a href="#b">Photos</a>
+    </nav>
+    <nav>
+      <a href="#b">CodePen</a>
+      <a href="#b">Twitter</a>
+      <a href="#b">GitHub</a>
+      <a href="#b">Newgrounds</a>
     </nav>
   </footer>
 </body>
